@@ -1,0 +1,10 @@
+This is a simple program that tries to fetch GPS time from gpsd.
+If successful, the program tries to set the system clock.
+
+Usage: gpsdate [-v] [host [port]]
+  -v - print the GPS time
+  server - gpsd host
+  port - gpsd port
+
+On success, the program exits with code 0.
+On error, the program exits with code 1.
